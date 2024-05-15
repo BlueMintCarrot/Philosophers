@@ -2,7 +2,7 @@ CC = cc
 CFLAGS = -g -pthread -Wall -Wextra -Werror
 NAME = philo
 
-SOURCES = main.c
+SOURCES = actions.c init_and_input.c libft.c main.c stuff.c
 
 OBJS_DIR = obj
 OBJECTS = $(addprefix $(OBJS_DIR)/, $(SOURCES:%.c=%.o))
